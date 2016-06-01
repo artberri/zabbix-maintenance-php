@@ -11,10 +11,18 @@ That's all!
 
 ## Installation
 
-Via composer:
+To install zabbix-maintenance-php download [zabbixmaintenance.phar](https://github.com/artberri/zabbix-maintenance-php/releases/download/v0.0.2/zabbixmaintenance.phar) archive and move zabbixmaintenance.phar to your bin directory and make it executable.
 
 ``` sh
-$ composer require berriart/zabbix-maintenance
+curl -LO https://github.com/artberri/zabbix-maintenance-php/releases/download/v0.0.2/zabbixmaintenance.phar
+sudo mv zabbixmaintenance.phar /usr/local/bin/zabbixmaintenance
+sudo chmod +x /usr/local/bin/zabbixmaintenance
+```
+
+Or via composer:
+
+``` sh
+composer require berriart/zabbix-maintenance
 ```
 
 
@@ -23,7 +31,13 @@ $ composer require berriart/zabbix-maintenance
 See the command options running:
 
 ``` sh
-$ ./vendor/bin/zabbixmaintenance -h
+zabbixmaintenance -h
+```
+
+Or if you installed it via composer:
+
+``` sh
+./vendor/bin/zabbixmaintenance -h
 ```
 
 ## License
