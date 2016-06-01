@@ -3,10 +3,13 @@
     "description": "PHP script to add/remove Maintenance mode in Zabbix",
     "type": "library",
     "license": "MIT",
+    "keywords": ["zabbix", "cli", "maintenance"],
+    "homepage": "https://github.com/artberri/zabbix-maintenance-php",
     "authors": [
         {
             "name": "Alberto Varela",
-            "email": "alberto@berriart.com"
+            "email": "alberto@berriart.com",
+            "homepage": "http://www.berriart.com",
         }
     ],
     "autoload": {
