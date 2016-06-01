@@ -9,7 +9,7 @@
         {
             "name": "Alberto Varela",
             "email": "alberto@berriart.com",
-            "homepage": "http://www.berriart.com",
+            "homepage": "http://www.berriart.com"
         }
     ],
     "autoload": {
