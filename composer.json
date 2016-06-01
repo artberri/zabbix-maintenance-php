@@ -1,0 +1,26 @@
+{
+    "name": "berriart/zabbix-maintenance",
+    "description": "PHP script to add/remove Maintenance mode in Zabbix",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alberto Varela",
+            "email": "alberto@berriart.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Berriart\\Zabbix\\Maintenance\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "bin": [
+        "bin/zabbixmaintenance"
+    ],
+    "require": {
+        "php": ">=5.3.9",
+        "symfony/console": "~2.7|~3.0",
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}
