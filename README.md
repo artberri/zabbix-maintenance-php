@@ -40,6 +40,20 @@ Or if you installed it via composer:
 ./vendor/bin/zabbixmaintenance -h
 ```
 
+### Usage example
+
+Maintenance on:
+
+``` sh
+zabbixmaintenance on -U "http://zabbix.yourdomain.com" -u zabbixuser -p zabbixuser -g maintenance-group -H host-to-add-in.maintenance.com -s 5
+```
+
+Maintenance off:
+
+``` sh
+zabbixmaintenance off -U "http://zabbix.yourdomain.com" -u zabbixuser -p zabbixuser -g maintenance-group -H host-to-add-in.maintenance.com -s 5
+```
+
 ## License
 
 Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
