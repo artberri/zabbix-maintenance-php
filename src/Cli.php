@@ -8,9 +8,9 @@ use Symfony\Component\Console\Application;
 
 class Cli
 {
-    public static function init()
+    public static function init($name, $version)
     {
-        $application = new Application();
+        $application = new Application($name, $version);
         $application->add(new OnCommand());
         $application->add(new OffCommand());
         $application->run();

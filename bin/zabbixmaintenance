@@ -44,4 +44,4 @@ if (!defined('ZABBIXM_COMPOSER_INSTALL')) {
 
 require ZABBIXM_COMPOSER_INSTALL;
 
-Berriart\Zabbix\Maintenance\Cli::init();
+Berriart\Zabbix\Maintenance\Cli::init('zabbixmaintenance', 'master');
