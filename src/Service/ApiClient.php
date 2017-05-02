@@ -15,6 +15,7 @@ class ApiClient
     {
         $this->client = $client = new Client(array(
             'base_uri' => $url,
+            'verify' => false
         ));
     }
 
